@@ -71,4 +71,9 @@ if __name__ == '__main__':
         await client.open_channel()
         while True:
             prompt = input("You: ")
-         
+            await client.chat(prompt)
+
+            reply = await client.get_reply()
+            print(f"Claude: {reply}\n--------------------")
+
+    asyncio.run(server())
