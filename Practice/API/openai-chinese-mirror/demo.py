@@ -47,4 +47,25 @@ def gpt_35_api_stream(messages: list):
                 # print(f'流响应数据: {delta_k} = {delta_v}')
                 completion[delta_k] += delta_v
         messages.append(completion)  # 直接在传入参数 messages 中追加消息
-        return
+        return (True, '')
+    except Exception as err:
+        return (False, f'OpenAI API 异常: {err}')
+    
+
+if __name__ == '__main__':
+    
+    # while True:
+    #     input_text = input('You: ').strip()
+    #     if len(input_text) == 0:
+    #         print('**no response**')
+    #         continue
+    #     else:
+    #         messages = [{'role': 'user','content': input_text},]
+    #         print(gpt_35_api_stream(messages))
+    #         print('ChatGPT: ' + messages[1]['content'])
+    
+    prompt = ''
+    messages = [{'role': 'user','content': prompt},]
+    print(gpt_35_api_stream(messages))
+    # print(messages)
+    print(messages[1]["content"])
