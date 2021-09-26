@@ -41,4 +41,38 @@ We select 4 open-source LLM for experiments, including:
 | --------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------- | ---------- | ------------------------ |
 | Galactica | 6.7b   | Self-construct                                                                                                                               |          | Meta        | Galactica  |                          |
 | LLaMA     | 7b     | Self-construct                                                                                                                               |          | Meta        | Llama      |                          |
-| Bloomz    | 7.1b   | [BigscienceCorpus (1.5T)](https://huggingface.co/spaces/bigscience/BigScienceCorpus) + [xP3mt](https://hu
+| Bloomz    | 7.1b   | [BigscienceCorpus (1.5T)](https://huggingface.co/spaces/bigscience/BigScienceCorpus) + [xP3mt](https://huggingface.co/datasets/bigscience/xP3mt) |          | Bigscience  | Bloom      | +finetune                |
+| Flan-T5   | 11b    | [C4 (750G)](https://www.tensorflow.org/datasets/catalog/c) + Multitask Datasets                                                                |          | Google      | T5         | +finetune<br />+instruct |
+
+### Usage
+
+**LOG:**
+
+- [X] We adopt instruction tuning on 10b-level LLM (Llama-7b, galactica-6.7b, bloomz-7b1-mt, flant5-11b) with open source instructions (stanford_alpaca, chinese_alpaca, belle0.5m, guanaco), and evaluate these models on Z-Bench.
+
+```
+cd instruction
+```
+
+#### Traning
+
+*NOTE: The code is heavily based on [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca), and we use the A100 (80G) for training*
+
+- <details><summary>Llama</summary>
+
+  ```
+  torchrun --nproc_per_node=4 --master_port=10017 train.py \
+      --model_name_or_path /prev_trained_models/llama-7b-hf \
+      --data_path ../data/instructs/alpaca_mix.json \
+      --bf16 True \
+      --output_dir output/llama-mix \
+      --num_train_epochs 3 \
+      --per_device_train_batch_size 4 \
+      --per_device_eval_batch_size 4 \
+      --gradient_accumulation_steps 8 \
+      --evaluation_strategy "no" \
+      --save_strategy "steps" \
+      --save_steps 2000 \
+      --save_total_limit 1 \
+      --learning_rate 2e-5 \
+      --weight_deca
