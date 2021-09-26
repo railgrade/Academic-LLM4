@@ -24,4 +24,21 @@ We collect 1M **Multilingual** instruction datasets for experiments, including:
 
 #### Bootsrap Instructions
 
-to construct instruction manually, we follow [self-instruct](https://github.com/yizhongw/self-instruct), and [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpa
+to construct instruction manually, we follow [self-instruct](https://github.com/yizhongw/self-instruct), and [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+
+```
+python bootstrap_instruction.py generate_instruction_following_data\
+	--output_dir ./ \
+	--num_instructions_to_generate 10 \
+	--model_name="text-davinci-003"
+```
+
+### Model Cards
+
+We select 4 open-source LLM for experiments, including:
+
+| Model     | Params | Pretrianed                                                                                                                                   | Language | Affiliation | Foundation | tuning                   |
+| --------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------- | ---------- | ------------------------ |
+| Galactica | 6.7b   | Self-construct                                                                                                                               |          | Meta        | Galactica  |                          |
+| LLaMA     | 7b     | Self-construct                                                                                                                               |          | Meta        | Llama      |                          |
+| Bloomz    | 7.1b   | [BigscienceCorpus (1.5T)](https://huggingface.co/spaces/bigscience/BigScienceCorpus) + [xP3mt](https://hu
