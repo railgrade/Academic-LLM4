@@ -158,4 +158,23 @@ cd instruction
       --learning_rate 2e-5 \
       --weight_decay 0. \
       --warmup_ratio 0.03 \
-      --l
+      --lr_scheduler_type "cosine" \
+      --logging_steps 1 \
+      --fsdp "full_shard auto_wrap" \
+      --fsdp_transformer_layer_cls_to_wrap 'T5Block' \
+      --tf32 True
+  ```
+
+  </details>
+
+#### Evaluating
+
+```
+python evaluate.py
+```
+
+## Results
+
+| Benchmarks                                   | Data                                     | Language                            | Result                                                                                                                                                                   |
+| -------------------------------------------- | ---------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Z-Bench](https://github.com/zhenbench/z-bench) | Alpaca, Alpaca_CN, Belle(0.5M), Guannaco | Chinese, English, Japanese, Deutsch | [Basic](evaluations/z-bench/chinese_eval_basic_new.csv), [Advanced](evaluations/z-bench/chinese_eval_advanced_new.csv), [Domain](evaluations/z-bench/chinese_eval_domain_new.csv) |
