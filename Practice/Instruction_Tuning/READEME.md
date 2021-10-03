@@ -117,4 +117,45 @@ cd instruction
   ```
   torchrun --nproc_per_node=4 --master_port=10014 train.py \
       --model_name_or_path /prev_trained_models/galactica-6b \
-      --data_
+      --data_path ./instructs/alpaca_mix.json \
+      --bf16 True \
+      --output_dir output/galactica-mix \
+      --num_train_epochs 3 \
+      --per_device_train_batch_size 4 \
+      --per_device_eval_batch_size 4 \
+      --gradient_accumulation_steps 8 \
+      --evaluation_strategy "no" \
+      --save_strategy "steps" \
+      --save_steps 2000 \
+      --save_total_limit 1 \
+      --learning_rate 2e-5 \
+      --weight_decay 0. \
+      --warmup_ratio 0.03 \
+      --lr_scheduler_type "cosine" \
+      --logging_steps 1 \
+      --fsdp "full_shard auto_wrap" \
+      --fsdp_transformer_layer_cls_to_wrap 'OPTDecoderLayer' \
+      --tf32 True
+  ```
+
+  </details>
+- <details><summary>Flan-T5</summary>
+
+  ```
+  torchrun --nproc_per_node=4 --master_port=10015 train.py \
+      --model_name_or_path /prev_trained_models/flan-t5-xxl \
+      --data_path ./instructs/alpaca_mix.json \
+      --bf16 True \
+      --output_dir output/flant5-mix \
+      --num_train_epochs 3 \
+      --per_device_train_batch_size 1 \
+      --per_device_eval_batch_size 2 \
+      --gradient_accumulation_steps 32 \
+      --evaluation_strategy "no" \
+      --save_strategy "steps" \
+      --save_steps 2000 \
+      --save_total_limit 1 \
+      --learning_rate 2e-5 \
+      --weight_decay 0. \
+      --warmup_ratio 0.03 \
+      --l
