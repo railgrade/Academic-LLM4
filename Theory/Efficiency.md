@@ -11,4 +11,6 @@
 
 ## Reference
 
-[Awesome-LLM-Compression](https://github.com/HuangOwen/Awesome-LLM-Compression), Awesome LL
+[Awesome-LLM-Compression](https://github.com/HuangOwen/Awesome-LLM-Compression), Awesome LLM compression research papers and tools to accelerate the LLM training and inference
+
+[Awesome-Long-Context](https://github.com/showlab/Awesome-Long-Context), A curated list of resources about long-context in large-language models and video understanding.
