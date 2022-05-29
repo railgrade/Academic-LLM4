@@ -33,4 +33,9 @@ Reading List
 | Title                                                                                                               | Date    | Supplementary                                                          |
 | ------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------- |
 | [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://lmsys.org/blog/2023-03-30-vicuna/) | 2023.03 | [Vicuna](https://github.com/lm-sys/FastChat#model-weights), LMSYS         |
-| [Alpaca: A Strong, Replicable Instruction-Follow
+| [Alpaca: A Strong, Replicable Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)           | 2023.03 | [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca), Stanford |
+
+## Reference
+
+- [Instruction Tuning阶段性总结](https://yaofu.notion.site/2023-06-Instruction-Tuning-935b48e5f26448e6868320b9327374a1), by 符尧 (Yao Fu), 2023.06
+- [Instruction-Tuning-Papers](https://github.com/SinclairCoder/Instruction-Tuning-Papers), A trend starts from Natrural-Instruction (ACL 2022), FLAN (ICLR 2022) and T0 (ICLR 2022).
