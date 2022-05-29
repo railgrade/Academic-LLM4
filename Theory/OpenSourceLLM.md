@@ -21,4 +21,9 @@ notes:
 
 1. *Date: YY/MM, All projects are sorted by first proposed date*
 2. *Dec=Decoder; Enc=Encoder; CTX=Context Length; WD=Window Length*
-3. *We provide Hugg
+3. *We provide Huggingface (HF) checkpoint by default*
+
+## Pretrained Model
+
+| Model                        | Available Size                                                                                                                                                                                                                                                                                                                                                                                                                               | CTX   | Architecture | Training Data                                                                                                                                                                                     | Link                                                                                                                                                                                                      | Date  | Affiliation  |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
