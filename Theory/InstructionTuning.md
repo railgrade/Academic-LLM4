@@ -22,4 +22,15 @@ Reading List
 | Self-Instruct: Aligning LM with Self Generated Instructions                                    | ACL 2023     | [2212.10560](https://arxiv.org/abs/2212.10560)   | [self-instruct](https://github.com/yizhongw/self-instruct)(code), UW      |
 | Scaling Instruction-Finetuned Language Models                                                  |              | [2210.11416](https://arxiv.org/abs/2210.11416)   | FlanV2, Google                                                         |
 | Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks      | ACL 2023     | [2204.07705](https://arxiv.org/abs/2204.07705)   | Natural-Instruction V2, AI2                                            |
-| Training language models to follow instructions with human feedback                            | NeurIPS 2022 | [2203.02155](https://a
+| Training language models to follow instructions with human feedback                            | NeurIPS 2022 | [2203.02155](https://arxiv.org/abs/2203.02155)   | RLHF, OpenAI                                                           |
+| Finetuned Language Models are Zero-Shot Learners                                               | ICLR 2022    | [2109.01652](https://arxiv.org/abs/2109.01652)   | FlanV1, Google                                                         |
+| Cross-Task Generalization via Natural Language Crowdsourcing Instructions                      | ACL 2022     | [2104.08773](https://arxiv.org/abs/2104.08773v4) | [natural-instruction](https://instructions.apps.allenai.org/) (data), AI2 |
+
+*date: YYMM.ArxivID*
+
+## Blogs
+
+| Title                                                                                                               | Date    | Supplementary                                                          |
+| ------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------- |
+| [Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality](https://lmsys.org/blog/2023-03-30-vicuna/) | 2023.03 | [Vicuna](https://github.com/lm-sys/FastChat#model-weights), LMSYS         |
+| [Alpaca: A Strong, Replicable Instruction-Follow
