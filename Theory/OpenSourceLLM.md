@@ -62,4 +62,7 @@ notes:
 
 ## Multitask Supervised Finetuned Model
 
-| Model     | Available Size                                                                                                                                                  
+| Model     | Available Size                                                                                                                                                                                       | CTX  | Architecture | Base Model | Tuning Data                                                                             | Link                                                                                       | Date  | Affiliation |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ------------ | ---------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----- | ----------- |
+| Bloomz    | [1.1B](https://huggingface.co/bigscience/bloomz-1b1)/[1.7B](https://huggingface.co/bigscience/bloomz-1b1)/[3B](https://huggingface.co/bigscience/bloomz-3b)/[7.1B](https://huggingface.co/bigscience/bloomz-7b1) | 2K   | Dec          | Bloom      | [xP3](https://huggingface.co/datasets/bigscience/xP3) (Multitask, Multilingual)           | [paper](https://arxiv.org/abs/2211.01786), [code](https://github.com/bigscience-workshop/xmtf)  | 11/22 | Bigscience  |
+| Bloomz-mt | [7.1B](https://huggingface.co/bigscience/bloomz-7b1-mt)                                         
