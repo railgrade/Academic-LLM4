@@ -169,4 +169,12 @@ Additional open source projects for LLM research
 - [LLMZoo](https://github.com/FreedomIntelligence/LLMZoo): A project that provides data, models, and evaluation benchmark for large language models
   - *by CUHKAZ, 2023.05*
   - chat-model: [Phonex](https://github.com/FreedomIntelligence/LLMZoo) (BLOOMZ-7b-mt + INST), [Chimera](https://github.com/FreedomIntelligence/LLMZoo) (LLaMA-7b/13b + INST)
-- [OpenChatKit](https://github.com/togethercomputer/OpenChatKit): OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various application
+- [OpenChatKit](https://github.com/togethercomputer/OpenChatKit): OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications
+  - chat-model: [Pythia-Chat-Base-7B](https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B), [GPT-NeoXT-Chat-Base-20B](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)
+- [Alpaca-CoT](https://github.com/PhoebusSi/Alpaca-CoT): We unified the interfaces of instruction-tuning data (e.g., CoT data), multiple LLMs and parameter-efficient methods (e.g., lora, p-tuning) together for easy use. Meanwhile, we created a new branch to build a Tabular LLM.（我们分别统一了丰富的IFT数据（如CoT数据，目前仍不断扩充）、多种训练效率方法（如lora，p-tuning）以及多种LLMs，三个层面上的接口，打造方便研究人员上手的LLM-IFT研究平台。同时tabular_llm分支构建了面向表格智能任务的LLM。
+  - *2023.04*
+- [Linly](https://github.com/CVI-SZU/Linly): 本项目向社区提供 **中文对话模型 Linly-ChatFlow 、中文基础模型 Chinese-LLaMA、Chinese-Falcon 及其训练数据** 。 模型基于 [TencentPretrain](https://github.com/Tencent/TencentPretrain) 预训练框架全参数训练（Full-tuning），此外，本项目还公开从头训练的 [**Linly-OpenLLaMA**](https://github.com/CVI-SZU/Linly/wiki/Linly-OpenLLaMA) 模型，包含 **3B、7B、13B** 规模，在 1TB 中英文语料预训练，针对中文优化字词结合tokenizer，模型以 Apache 2.0 协议公开。
+  - chat-model: [Linly-Chinese-Falcon](https://github.com/CVI-SZU/Linly#linly-chinese-falcon), [Linly-Chinese-LLaMA](https://github.com/CVI-SZU/Linly#linly-chinese-llama)
+  - *by SZU, 2023.04*
+- [LMFlow](https://github.com/OptimalScale/LMFlow): An extensible, convenient, and efficient toolbox for finetuning large machine learning models
+  - *by OptimalScale, 2023.03,* [paper]
