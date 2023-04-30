@@ -144,4 +144,7 @@ notes:
 
 ## Domain Finetuned Model
 
-| Model                       | Available Size                                                                                                                                 | CTX | Base
+| Model                       | Available Size                                                                                                                                 | CTX | Base Model | Domain  | Tuning Data                                                                                              | Link                                                                                  | Date  | Affiliation |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ---------- | ------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----- | ----------- |
+| ChatLaw                     | 13B/33B                                                                                                                                        | 2K  | LLaMA      | Law     | [self-construct](https://github.com/PKU-YuanGroup/ChatLaw#%E6%95%B0%E6%8D%AE-dataset) (Chinese)            | [paper](https://arxiv.org/abs/2306.16092), [code](https://github.com/PKU-YuanGroup/ChatLaw) | 07/23 | PKU         |
+| Lawyer-LLamA                | [13B](https://huggingface.co/pkupie/lawyer-llama-13b-beta1.0), [Original](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_infer
