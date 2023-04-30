@@ -150,4 +150,23 @@ notes:
 | Lawyer-LLamA                | [13B](https://huggingface.co/pkupie/lawyer-llama-13b-beta1.0), [Original](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_inference.md) | 2K  | LLaMA      | Law     | [self-construct](https://github.com/AndrewZhe/lawyer-llama#%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE) (Chinese) | [code](https://github.com/AndrewZhe/lawyer-llama)                                        | 05/23 | PKU         |
 | medAlpaca                   | [7B](https://huggingface.co/medalpaca/medalpaca-7b)/[13B](https://huggingface.co/medalpaca/medalpaca-13b)                                            | 2K  | LLaMA      | Medical | [self-construct](https://github.com/kbressem/medAlpaca#data)                                                | [paper](https://arxiv.org/abs/2304.08247), [code](https://github.com/kbressem/medAlpaca)   | 04/23 | TUM         |
 | BenTsao/HuaTuo (本草/华佗) | 7B,[Original](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese#%E6%A8%A1%E5%9E%8B%E4%B8%8B%E8%BD%BD)                                           | 2K  | LLaMA      | Medical | self-construct ([cMeKG](https://github.com/king-yyf/CMeKG_tools), Chinese)                                  | [code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)                              | 03/23 | HIT         |
-| ChatDoctor                  | 7B,[Original](https://drive.google.com/drive/folders/11-qPzz9ZdHD6pc47wBSOUSU61MaDPyRh?usp=sharing)                                               | 2K  | LLaMA      
+| ChatDoctor                  | 7B,[Original](https://drive.google.com/drive/folders/11-qPzz9ZdHD6pc47wBSOUSU61MaDPyRh?usp=sharing)                                               | 2K  | LLaMA      | Medical | [ChatDoctor Dataset](https://github.com/Kent0n-Li/ChatDoctor#data-and-model)                                | [code](https://github.com/Kent0n-Li/ChatDoctor)                                          | 03/23 | personal    |
+
+*Toys*: [Robin-medical](https://github.com/OptimalScale/LMFlow#model-zoo) (LLamA+INST-medical)
+
+## Open Source Projects
+
+Additional open source projects for LLM research
+
+### reproduction/framework
+
+#### (1) Tuning
+
+- [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama): independent implementation of LLaMA pretraining, finetuning, and inference code that is fully open source under the Apache 2.0 license
+  - *by Lightning, 2023.05*
+- [Llama-X](https://github.com/AetherCortex/Llama-X): Open Academic Research on Improving LLaMA to SOTA LLM
+  - *by MSRA, 2023.05*
+- [LLMZoo](https://github.com/FreedomIntelligence/LLMZoo): A project that provides data, models, and evaluation benchmark for large language models
+  - *by CUHKAZ, 2023.05*
+  - chat-model: [Phonex](https://github.com/FreedomIntelligence/LLMZoo) (BLOOMZ-7b-mt + INST), [Chimera](https://github.com/FreedomIntelligence/LLMZoo) (LLaMA-7b/13b + INST)
+- [OpenChatKit](https://github.com/togethercomputer/OpenChatKit): OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various application
