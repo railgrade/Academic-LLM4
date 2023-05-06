@@ -188,4 +188,28 @@ Additional open source projects for LLM research
   - *2023.04*
 - [ChatLLaMA](https://github.com/nebuly-ai/nebuly/tree/main/optimization/chatllama): ChatLLaMA has been designed to help developers with various use cases, all related to RLHF training and optimized inference
   - *by Nebuly.AI, 2023.04*
-- [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat): A fast, affordable, scalable and open system framework for enabling end-to-end Reinforcement Learning Human Feedback (RLHF) training experience to ge
+- [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat): A fast, affordable, scalable and open system framework for enabling end-to-end Reinforcement Learning Human Feedback (RLHF) training experience to generate high-quality ChatGPT-style models at all scales
+  - *by DeepSpeed, 2023.04*
+- [ColossalChat](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat): a project to implement LLM with RLHF, powered by the Colossal-AI project
+  - *by Collosal.AI, 2023.03*
+  - chat-model: Coati-7B
+
+#### (3) Specific domain
+
+- [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT): Open-source for open finance
+  - domain: finance
+
+### accelerate
+
+- [QLoRA](https://github.com/artidoro/qlora): an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance
+  - *by UW NLP, 2023.05*, [paper](https://arxiv.org/abs/2305.14314)
+- [LLaMA.cpp](https://github.com/ggerganov/llama.cpp): Inference of LLaMA model in pure C/C++
+  - *2023.04*
+- [GPTQ-for-LLaMA](https://github.com/qwopqwop200/GPTQ-for-LLaMa): 4 bits quantization of LLaMA using GPTQ
+  - *2023.04*
+- [Alpaca-LoRA](https://github.com/tloen/alpaca-lora): This repository contains code for reproducing the Stanford Alpaca results using low-rank adaptation (LoRA)
+  - *2023.03*
+
+### evaluation
+
+- [PandaLM](https://github.com/WeOpenML/PandaLM): PandaLM aims to provide reproducible and automated comparisons between different large languag
