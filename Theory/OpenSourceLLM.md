@@ -177,4 +177,15 @@ Additional open source projects for LLM research
   - chat-model: [Linly-Chinese-Falcon](https://github.com/CVI-SZU/Linly#linly-chinese-falcon), [Linly-Chinese-LLaMA](https://github.com/CVI-SZU/Linly#linly-chinese-llama)
   - *by SZU, 2023.04*
 - [LMFlow](https://github.com/OptimalScale/LMFlow): An extensible, convenient, and efficient toolbox for finetuning large machine learning models
-  - *by OptimalScale, 2023.03,* [paper]
+  - *by OptimalScale, 2023.03,* [paper](https://arxiv.org/abs/2306.12420)
+  - chat-model: [Robin](https://github.com/OptimalScale/LMFlow#model-zoo) (LLaMA+INST), [Parakeets](https://github.com/OptimalScale/LMFlow#model-zoo) (GPT-NEO-2.7B + INST), [Cockatoo](https://github.com/OptimalScale/LMFlow#model-zoo) (StableLM-3B/7B + INST)
+
+#### (2) RLHF
+
+- [PKU Beaver](https://github.com/PKU-Alignment/safe-rlhf): Beaver is a highly modular open-source RLHF framework developed by the PKU-Alignment team at Peking University
+  - *by PKU, 2023.05*, [PKU-RLHF-Dataset](https://github.com/PKU-Alignment/safe-rlhf#pku-saferlhf-dataset)
+- [PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch): Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture
+  - *2023.04*
+- [ChatLLaMA](https://github.com/nebuly-ai/nebuly/tree/main/optimization/chatllama): ChatLLaMA has been designed to help developers with various use cases, all related to RLHF training and optimized inference
+  - *by Nebuly.AI, 2023.04*
+- [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat): A fast, affordable, scalable and open system framework for enabling end-to-end Reinforcement Learning Human Feedback (RLHF) training experience to ge
