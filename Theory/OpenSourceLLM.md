@@ -212,4 +212,22 @@ Additional open source projects for LLM research
 
 ### evaluation
 
-- [PandaLM](https://github.com/WeOpenML/PandaLM): PandaLM aims to provide reproducible and automated comparisons between different large languag
+- [PandaLM](https://github.com/WeOpenML/PandaLM): PandaLM aims to provide reproducible and automated comparisons between different large language models (LLMs).
+  - *by Westlake Univ. 2023.05 [paper](https://arxiv.org/abs/2306.05087)*
+
+### deployment/demo
+
+- [vLLM](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs
+- [OpenAssistant](https://github.com/LAION-AI/Open-Assistant): Open Assistant is a project meant to give everyone access to a great chat based large language model.
+  - *by LAION-AI, 2023.04*, [doc](https://projects.laion.ai/Open-Assistant/docs/intro), [demo](https://huggingface.co/chat)
+- [GPT4ALL](https://github.com/nomic-ai/gpt4all): GPT4All is an ecosystem to train and deploy **powerful** and **customized** large language models that run locally on consumer grade CPUs
+  - *2023.03*
+- [h2oGPT](https://github.com/h2oai/h2ogpt): h2oGPT is a large language model (LLM) fine-tuning framework and chatbot UI with document(s) question-answer capabilities.
+  - *by H2O.ai, 2023.03*
+- [LangChain](https://github.com/hwchase17/langchain): Building applications with LLMs through composability
+  - tutorial: [LanChain中文入门教程](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)
+  - *2023.03*
+
+## Reference
+
+- [open-llms](https://github.com/eugeneyan/open-llms), A list of open LLMs available for
