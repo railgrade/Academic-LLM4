@@ -29,4 +29,60 @@ Table of Contents
 
 ## Architecture
 
-Papers about Architecturn/Framework of neural network/language mod
+Papers about Architecturn/Framework of neural network/language model, see [Architecture](Architecture.md) for details.
+
+> - Papers
+> - Reference
+
+## Efficiency
+
+Papers about Efficiency/Compression of neural network/language model, see [Efficiency](Efficiency.md) for details.
+
+> - Papers
+> - Reference
+
+## Instruction Tuning
+
+Papers/blogs about Instruction Tuning, see [Instruction Tuning](InstructionTuning.md) for details.
+
+> - Papers
+> - Blogs
+> - Reference
+
+## In Context Learning
+
+Papers about In Context Learning, see [In Context Learning](ICL.md) for details.
+
+> - Papers
+> - Reference
+
+## Mixture of Experts (MoE)
+
+Papers about Mixture of Experts (MoE), see [Mixture of Experts](MoE.md) for details.
+
+> - Papers
+> - Reference
+
+## Reasoning
+
+### Chain of Thought
+
+Papers about Chain of Thought, see [Chain of Thought](reasoning/CoT.md) for details.
+
+> - Papers
+> - Reference
+
+### Abstract Reasoning
+
+Short survey about Abstract Reasoning, see [Abstract Reasoning](reasoning/AR.md) for details.
+
+> - Datasets
+> - Learning Methods
+> - Models
+> - Representative works
+
+## References
+
+- [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey), A collection of papers and resources related to Large Language Models
+  - [survey](https://arxiv.org/abs/2303.18223)
+- [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide), A curated list of practical guide resources of LLMs (LLMs Tree, Examples
