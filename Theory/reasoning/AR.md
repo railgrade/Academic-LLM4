@@ -40,4 +40,47 @@ Table of Content
 
 * baselines: CNN, ResNet, LSTM
 * relational reasoning：Relation Network
-* hierarchical networks: pan
+* hierarchical networks: panel, row, column, context
+
+## Representative works
+
+1. vision-based method
+
+**The Scattering Compositional Learner: Discovering Objects, Attributes, Relationships in Analogical Reasoning**
+
+learns a compositional hidden representation
+
+* three types of neural networks: object network, attribute networks, relationship networks
+* object network (object representation by CNN) -> attribute network (attribute features) -> relationship networks (determin whether certain relationships hold among attributes) -> output network
+
+<center>
+  <img
+  src="images/SCL.png">
+  <figcaption> SCL framework</figcaption>
+</center>
+
+<!-- ![SCL](images/SCL.png "SCL framework")
+*framework of SCL* -->
+
+2. PLM
+
+**In-Context Analogical Reasoning with Pre-Trained Language Models, ACL 2023, Umich**
+
+encode visual RPM into language form (naming, decompose) + PLM
+
+<center>
+  <img src="images/PLMR1.png">
+  <figcaption>overview of PLM for AR</figcaption>
+</center>
+
+* (entity-level, layout-level, component-level) convert RPM to text prompts
+  * entity-level: type: number of sides, size: diameter decimal, color: shade
+  * layout-level: number of obj. occupancy map
+  * component-level: task -> prompt
+* ZS-PLM
+
+experiments: OPT, GPT3
+
+<center>
+  <img src="images/PLMR2.png">
+  <figcaption>prompt case</figcaption
