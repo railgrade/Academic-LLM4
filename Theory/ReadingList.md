@@ -85,4 +85,6 @@ Short survey about Abstract Reasoning, see [Abstract Reasoning](reasoning/AR.md)
 
 - [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey), A collection of papers and resources related to Large Language Models
   - [survey](https://arxiv.org/abs/2303.18223)
-- [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide), A curated list of practical guide resources of LLMs (LLMs Tree, Examples
+- [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide), A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
+  - [survey](https://arxiv.org/abs/2304.13712), [blog](https://jingfengyang.github.io/gpt)
+- [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM), a curated list of Large Language Model
