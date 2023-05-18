@@ -83,4 +83,41 @@ experiments: OPT, GPT3
 
 <center>
   <img src="images/PLMR2.png">
-  <figcaption>prompt case</figcaption
+  <figcaption>prompt case</figcaption>
+</center>
+
+3. LLM
+
+**LLMs and the Abstraction and Reasoning Corpus: Successes, Failures, and the Importance of Object-based Representations**
+
+summary:
+
+* GPT4 can solve 13 out of 50 ARC tasks (textual encoding)
+* object-based method matters
+
+**Large Language Models Are Not Abstract Reasoners**
+
+**summary: LLM struggle with abstrqct reasoning**
+
+4. MLLM
+
+**Language Is Not All You Need: Aligning Perception with Language Models**
+
+<center>
+  <img src="images/kosmos1.png">
+  <figcaption>RAVEN IQ test results</figcaption>
+</center>
+
+4. others
+
+**Abstract Visual Reasoning: An Algebraic Approach for Solving Raven’s Progressive Matrices**, CVPR 2023
+
+*SOTA, algebra?*
+
+INSIGHTS: not that insightful
+
+## References
+
+> Deep Learning Methods for Abstract Visual Reasoning: A Survey on Raven’s Progressive Matrices
+>
+> Multimodal Analogical Reasoning over Knowledge Graphs
